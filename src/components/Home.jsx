@@ -202,7 +202,7 @@ export default function Home() {
                 }}
               >
                 <img
-                  src={`/images/product-${product.textid}.png`}
+                   src={`${import.meta.env.BASE_URL}images/product-${product.textid}.png`}
                   alt={product.name}
                   style={{
                     width: "100%",

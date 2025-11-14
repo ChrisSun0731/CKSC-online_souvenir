@@ -96,7 +96,7 @@ export default function Product7() {
                     }}
                   >
                     <img
-                      src={`/images/product-${product.id}.png`}
+                      src={`${import.meta.env.BASE_URL}images/product-${product.id}.png`}
                       alt={product.name}
                       style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />
